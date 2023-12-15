@@ -59,27 +59,27 @@ nav {
 
 /* main background image */
 #pink {
-    height: 600;
+    height: 600px;
     width: 100%;
-    background: url(../images/forest-sunbeams-trees-sunlight-70365.jpeg) no-repeat center/cover;
+    background: url("../images/forest-sunbeams-trees-sunlight-70365.jpeg") no-repeat center/cover;
     position: relative;
     background-attachment: fixed;
 }
 
 /*guide background*/
 #med-guide {
-    height: 600;
+    height: 600px;
     width: 100%;
-    background: url(../images/pexels-engin-akyurt-3331574.jpg) no-repeat center/cover;
+    background: url("../images/pexels-engin-akyurt-3331574.jpg") no-repeat center/cover;
     position: relative;
     background-attachment: fixed;
 }
 
 /*practic background*/
 #practice-guide {
-    height: 600;
+    height: 600px;
     width: 100%;
-    background: url(../images/trees.jpeg) no-repeat center/cover;
+    background: url("../images/trees.jpeg") no-repeat center/cover;
     position: relative;
     background-attachment: fixed;
 }
@@ -91,7 +91,6 @@ nav {
     display: inline-block;
     padding: 20px 20px 40px;
     margin: 10px;
-    font-size: relative;
     color: whitesmoke;
 }
 
@@ -102,7 +101,6 @@ nav {
     display: inline-block;
     padding: 40px 40px 40px;
     margin: 10px;
-    font-size: relative;
     color: whitesmoke;
 }
 
@@ -134,4 +132,12 @@ a:hover {
 
 ul {
     list-style: none;
+}
+
+.photo-link {
+    height: 300vh;
+}
+
+video {
+    width: 50%;
 }
