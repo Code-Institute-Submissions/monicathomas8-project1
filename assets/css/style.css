@@ -1,2 +1,135 @@
-footer {background-color:plum; text-align: center; }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-color: #302e2f;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #4d5285;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px 20px 40px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+nav {
+    color: whitesmoke;
+}
+
+main {
+    background-color: #0f0e0e;
+    width: 100%;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #4d5285;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    padding: 10px 20px 30px;
+}
+
+/* main background image */
+#pink {
+    height: 600;
+    width: 100%;
+    background: url(../images/forest-sunbeams-trees-sunlight-70365.jpeg) no-repeat center/cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/*guide background*/
+#med-guide {
+    height: 600;
+    width: 100%;
+    background: url(../images/pexels-engin-akyurt-3331574.jpg) no-repeat center/cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/*practic background*/
+#practice-guide {
+    height: 600;
+    width: 100%;
+    background: url(../images/trees.jpeg) no-repeat center/cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.section-main {
+    background-color: #4d5285c4;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 20px 40px;
+    margin: 10px;
+    font-size: relative;
+    color: whitesmoke;
+}
+
+.section-main-guide {
+    background-color: #4d5285c4;
+    width: 70%;
+    text-align: left;
+    display: inline-block;
+    padding: 40px 40px 40px;
+    margin: 10px;
+    font-size: relative;
+    color: whitesmoke;
+}
+
+#box-calm {
+    background-color: #4d5285c4;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    padding: 20px 20px 40px;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    font-size: smaller;
+}
+
+.links {
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+}
+
+.small-text {
+    font-size: smaller;
+}
