@@ -59,7 +59,7 @@ nav {
 
 /* main background image */
 #pink {
-    height: 600px;
+
     width: 100%;
     background: url("../images/forest-sunbeams-trees-sunlight-70365.jpeg") no-repeat center/cover;
     position: relative;
@@ -106,12 +106,44 @@ nav {
 
 #box-calm {
     background-color: #4d5285c4;
-    width: 30%;
-    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 20px 20px 40px;
     margin: 10px;
     color: whitesmoke;
+}
+
+#free-guide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#free-guide fieldset {
+    width: 100%;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#free-guide fieldset a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#free-guide fieldset a img {
+    width: 100%;
+    object-fit: contain;
 }
 
 .footer-info {
